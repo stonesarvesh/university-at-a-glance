@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Leapin</title>
 </head>
 <body>
-	Starting off
+	<h1> Coming Soon</h1>
+	
+	<a href='login'>login as admin</a>
 </body>
 </html>
