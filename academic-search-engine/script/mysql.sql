@@ -1,5 +1,4 @@
 create table program (
-  name varchar(100) not null,
   course_name varchar(100) not null,
   major_category varchar(40) not null,
   institute_name varchar(100) not null,
@@ -19,9 +18,5 @@ create table program (
   admission_syllabus varchar(500) default 'NA',
   reservation varchar(200) default 'NA' ,
   fee varchar(50) default 'NA' ,
-  accomodation varchar(100) default 'NA' ,
-  created_by varchar(10) default 'Admin',
-  created_on timestamp default current_timestamp,
-  updated_by varchar(10) default 'Admin',
-  updated_on timestamp
+  accomodation varchar(100) default 'NA'
 );

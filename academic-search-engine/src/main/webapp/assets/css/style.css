@@ -2241,3 +2241,17 @@ label {
 }
 
 
+.searchBtn {
+    background: -moz-linear-gradient(center top , #4387fd, #4683ea) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid transparent;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    height: 30px;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+    width: 60px;
+}
+
