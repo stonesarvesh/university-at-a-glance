@@ -230,7 +230,7 @@ ul.top-menu > li > .logout {
 
 #sidebar {
     width: 210px;
-    height: 100%;
+    height: 94%;
     position: fixed;
     background: #424a5d;
 }
@@ -2238,6 +2238,10 @@ label {
 
 .site-min-height {
     min-height: 900px;
+}
+
+.site-min-height-home {
+    min-height: 557px;
 }
 
 

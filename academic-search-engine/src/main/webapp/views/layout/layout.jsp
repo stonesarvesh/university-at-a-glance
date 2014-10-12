@@ -46,11 +46,20 @@
 		</header>
 		<!--header end-->
 		
+<<<<<<< Upstream, based on branch 'master' of https://github.com/stonesarvesh/university-at-a-glance.git
 		<!--main content start-->
 		<section id="">
 			<section class="wrapper">
 			<tiles:insertAttribute name="content" />
 			</section>
+=======
+		<aside>
+			<tiles:insertAttribute name="sidebar" />
+     	 </aside>
+		<!--main content start-->
+		<section id="main-content">
+			<tiles:insertAttribute name="content" />
+>>>>>>> 1b3058f home page configured
 		</section>
 
 		<!--main content end-->

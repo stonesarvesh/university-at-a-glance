@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Program {
 	private String name;//
-	private Course[] courses;//
+	//private Course[] courses;//
 	private String level;//
 	private String degree;//
 	private String seats;//
@@ -20,7 +20,7 @@ public class Program {
 	private String accomodationInfo;//
 	private String link;//
 	private String instituteName;
-	private City city;
+	//private City city;
 	private String state;
 	private String instituteLink;
 //	private Date createdOn;
@@ -40,18 +40,18 @@ public class Program {
 	public void setInstituteName(String instituteName) {
 		this.instituteName = instituteName;
 	}
-	/**
-	 * @return the city
-	 */
-	public City getCity() {
-		return city;
-	}
-	/**
-	 * @param city the city to set
-	 */
-	public void setCity(City city) {
-		this.city = city;
-	}
+//	/**
+//	 * @return the city
+//	 */
+//	public City getCity() {
+//		return city;
+//	}
+//	/**
+//	 * @param city the city to set
+//	 */
+//	public void setCity(City city) {
+//		this.city = city;
+//	}
 	/**
 	 * @return the state
 	 */
@@ -136,18 +136,18 @@ public class Program {
 	public void setName(String name) {
 		this.name = name;
 	}
-	/**
-	 * @return the courses
-	 */
-	public Course[] getCourses() {
-		return courses;
-	}
-	/**
-	 * @param courses the courses to set
-	 */
-	public void setCourses(Course[] courses) {
-		this.courses = courses;
-	}
+//	/**
+//	 * @return the courses
+//	 */
+//	public Course[] getCourses() {
+//		return courses;
+//	}
+//	/**
+//	 * @param courses the courses to set
+//	 */
+//	public void setCourses(Course[] courses) {
+//		this.courses = courses;
+//	}
 	/**
 	 * @return the level
 	 */
@@ -317,21 +317,21 @@ public class Program {
 		this.link = link;
 	}
 	
-	/* (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 */
-	@Override
-	public String toString() {
-		return "Program [name=" + name + ", courses="
-				+ Arrays.toString(courses) + ", level=" + level + ", degree="
-				+ degree + ", seats=" + seats + ", type=" + type
-				+ ", duration=" + duration + ", qualification=" + qualification
-				+ ", sessionCommencement=" + sessionCommencement
-				+ ", formNotification=" + formNotification + ", quota=" + quota
-				+ ", admissionProcedure=" + admissionProcedure
-				+ ", admissionSyllabus=" + admissionSyllabus + ", fee=" + fee
-				+ ", accomodationInfo=" + accomodationInfo + ", link=" + link
-				+ "]";
-	}
+//	/* (non-Javadoc)
+//	 * @see java.lang.Object#toString()
+//	 */
+//	@Override
+//	public String toString() {
+//		return "Program [name=" + name + ", courses="
+//				+ Arrays.toString(courses) + ", level=" + level + ", degree="
+//				+ degree + ", seats=" + seats + ", type=" + type
+//				+ ", duration=" + duration + ", qualification=" + qualification
+//				+ ", sessionCommencement=" + sessionCommencement
+//				+ ", formNotification=" + formNotification + ", quota=" + quota
+//				+ ", admissionProcedure=" + admissionProcedure
+//				+ ", admissionSyllabus=" + admissionSyllabus + ", fee=" + fee
+//				+ ", accomodationInfo=" + accomodationInfo + ", link=" + link
+//				+ "]";
+//	}
 	
 }

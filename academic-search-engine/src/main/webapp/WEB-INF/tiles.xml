@@ -5,6 +5,10 @@
 <tiles-definitions>
 	<definition name="base" template="/views/layout/layout.jsp">
 		<put-attribute name="header" value="/views/layout/header.jsp" />
+<<<<<<< Upstream, based on branch 'master' of https://github.com/stonesarvesh/university-at-a-glance.git
+=======
+		<put-attribute name="sidebar" value="" />
+>>>>>>> 1b3058f home page configured
 		<put-attribute name="content" value="" />
 		<put-attribute name="footer" value="/views/layout/footer.jsp" />
 	</definition>
@@ -13,7 +17,12 @@
 		<put-attribute name="content" value="/views/common/searchHome.jsp"/>
 	</definition>
 	<definition name="searchResult" extends="base">
+<<<<<<< Upstream, based on branch 'master' of https://github.com/stonesarvesh/university-at-a-glance.git
 		<put-attribute name="content" value="/views/common/searchResult.jsp"/>
+=======
+		<put-attribute name="sidebar" value="/views/layout/sidebar.jsp" />
+		<put-attribute name="content" value="/views/common/searchResult.jsp"></put-attribute>
+>>>>>>> 1b3058f home page configured
 	</definition>
 	
 </tiles-definitions>
